@@ -6,5 +6,5 @@ total = 0
 for i in range(1, n + 1):
     s.append((1 + 1/i)**i)
 
-print(s)
-
+print(f'Список: {s}')
+print(f'Сумма элементов списка {sum(s)}')
